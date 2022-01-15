@@ -7,6 +7,9 @@
     "clean": "rm -r output .lock .cache",
     "test": "npx spago test",
 
+    "run:spago": "npx spago run",
+    "run": "npm-run-all -p run:*",
+
     "build:spago": "npx spago build",
     "build": "npm-run-all -p build:*",
 
